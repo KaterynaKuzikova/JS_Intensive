@@ -14,24 +14,24 @@ window.addEventListener('load', () => {
 
 //2подзадание
 
-window.addEventListener('load', () => {
-    let firstNumber = + prompt('Enter first value'); 
+// window.addEventListener('load', () => {
+//     let firstNumber = + prompt('Enter first value'); 
 
-    if(isNaN(firstNumber)){
-        alert('Неккоректный ввод!');
-        return;
-    }
+//     if(isNaN(firstNumber)){
+//         alert('Неккоректный ввод!');
+//         return;
+//     }
 
-    let secondNumber = + prompt('Enter second value');
+//     let secondNumber = + prompt('Enter second value');
 
-    if(isNaN(secondNumber)){
-        alert('Неккоректный ввод!');
-        return;
-    } else{
-        let sum = firstNumber+secondNumber;
-        let quotient = firstNumber/secondNumber;
-        alert(`Ответ: [ ${sum} ], [ ${quotient} ]`);
-        return;
-    }
+//     if(isNaN(secondNumber)){
+//         alert('Неккоректный ввод!');
+//         return;
+//     } else{
+//         let sum = firstNumber+secondNumber;
+//         let quotient = firstNumber/secondNumber;
+//         alert(`Ответ: [ ${sum} ], [ ${quotient} ]`);
+//         return;
+//     }
     
-  });
+//   });
