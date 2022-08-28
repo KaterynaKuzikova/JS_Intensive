@@ -49,7 +49,7 @@ class Node {
         return this.top.data;
       }
       else {
-        throw new Error('Stack is empty');
+        return null;
       }
     }
   
